@@ -97,7 +97,7 @@ service-worker: true
 
 
 # Friends
-#friends: [
+friends: [
     {
         title: "Researchgate",
         href: "https://www.researchgate.net/profile/Zisheng_Zhang2"
