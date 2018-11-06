@@ -60,14 +60,14 @@ kramdown:
 # disqus_username: qiubaiying
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: czestchan.github.io    #仓库名称
-  owner: czestchan    #github用户名
-  admin: czestchan
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: true    #是否开启Gitalk评论
+#  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+#  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+#  repo: czestchan.github.io    #仓库名称
+#  owner: czestchan    #github用户名
+#  admin: czestchan
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -85,8 +85,8 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+#featured-tags: true                     # 是否使用首页标签
+#featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -97,18 +97,12 @@ service-worker: true
 
 
 # Friends
-friends: [
+#friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Researchgate",
+        href: "https://www.researchgate.net/profile/Zisheng_Zhang2"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Google Scholar",
+        href: "https://scholar.google.com/citations?user=TfNSniUAAAAJ"
     }
 ]
