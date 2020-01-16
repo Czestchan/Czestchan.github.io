@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      Ensembles of metastable states govern heterogeneous catalysis on dynamic interfaces
+subtitle:   Accepted by Accounts of Chemical Research
+date:       2019-01-15
+author:     _
+header-img: img/research1.JPG
+catalog: true
+tags:
+    - Fluxionality
+    - Density Functional Theory
+    - Heterogeneous Catalysis
+    - Dynamic Catalytic Interface
+---
+
+# Abstract
+Heterogeneous catalysis is at the heart of chemical industry. Being able to tune and design efficient catalysts for processes of interest is of an utmost importance, and for this, the molecular-level understanding of heterogeneous catalysts is the first step, and indeed a prime focus of the modern catalysis research. For a long time, a single most thermodynamically stable structure of the catalytic interface attained in reaction conditions had been envisioned as the reactive phase. However, some catalytic interfaces continue to undergo structural dynamics in the steady state, triggered by high temperatures, pressures, and binding and changing reagents. Among particularly dynamic interfaces are such widely-used catalysts as crystalline and amorphous surfaced supporting (sub-)nano metallic clusters. Recently, it became clear that this dynamic fluxionality causes the supported clusters to populate many distinct structural and stoichiometric states in catalytic conditions. Hence, the catalytic interface should be viewed as an evolving statistical ensemble of many (not one) structures. Every member in the ensemble contributes to the properties of the catalyst differently, and in proportion to its probability to be populated. This new notion flips the established paradigm and calls for new theory, modeling approaches, operando measurements, and updated design strategies.
+The statistical ensemble nature of surface-supported sub-nano cluster catalysts can be exemplified by oxide-supported and adsorbate-covered Pt, Pd, Cu, CuPd clusters, catalytic toward oxidative and non-oxidative dehydrogenation. They have access to a variety of 3D and quasi-2D shapes. The compositions of their thermal ensembles are dependent on the cluster size, leading to size-specific catalytic activities and the famous “every atom counts” phenomenon. The support and adsorbates affect catalyst structures, and state of the reacting species causes the ensemble to change in every reaction intermediate. The most stable member of the ensemble dominates the thermodynamic properties of the corresponding intermediate, whereas the kinetics can be determined by more active but less populated metastable catalyst states, and that suggests that many earlier studies might have overlooked the actual active sites. Both effects depend on the relative time-scales of catalyst restructuring and reaction dynamics. The catalyst may routinely operate off-equilibrium. Ensemble phenomena lead to surprising exceptions from established rules of catalysis, such as scaling relations, and Arrhenius behavior. Catalyst deactivation is also an ensemble property, and its extent of mitigation can be predicted through the new paradigm. These findings were enabled by advances in theory, such as global optimization and subsequent utilization of multiple local minima, and pathways sampling, as well as operando catalyst characterization. The fact that the per-site and per-species resolution is needed for the description and predicting of catalyst properties gives theory the central role in catalysis research, as most experiments provide ensemble-average information and cannot detect the crucial minority species that may be responsible for the catalytic activity.
