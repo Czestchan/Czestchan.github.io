@@ -5,9 +5,9 @@ header-img: img/reseach4.png
 email: zisheng@chem.ucla.edu
 description: "Computational Catalysis, Surface Dynamics, Machine Learning and beyond..."
 #keyword: ""
-url: "http://czestchan.github.io"          # your host, for absolute URL
+url: "http://zishengz.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/czestchan/czestchan.github.io.git" # you code repository
+github_repo: "https://github.com/zishengz/zishengz.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -19,8 +19,8 @@ sidebar-avatar: /img/zisheng.png      # use absolute URL, seeing it's used in bo
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-#zhihu_username:     qiubaiying
-#github_username:    qiubaiying
+zhihu_username:     qian-zhang-26-83
+github_username:    zishengz
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
@@ -57,7 +57,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: zishengzhang
+disqus_username: zishengz
 
 # Gitalk
 #gitalk:
@@ -78,7 +78,7 @@ kramdown:
 
 # Google Analytics
 ga_track_id: 'UA-128877826-1'            # Format: UA-xxxxxx-xx
-ga_domain: zisheng.info               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -101,8 +101,17 @@ friends: [
     {
         title: "Researchgate",
         href: "https://www.researchgate.net/profile/Zisheng_Zhang2"
-    },{
+    },
+    {
         title: "Google Scholar",
         href: "https://scholar.google.com/citations?user=oYBJT_kAAAAJ&hl=en"
+    },
+    {
+        title: "Zhihu",
+        href: "https://www.zhihu.com/people/qian-zhang-26-83"
+    },
+    {
+        title: "ORCID",
+        href: "https://orcid.org/0000-0002-4370-4038"
     }
 ]
