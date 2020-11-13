@@ -103,15 +103,15 @@ service-worker: true
 # Friends
 friends: [
     {
-        TITLE: "Alexandrova Lab at UCLA",
-        HREF: "http://www.chem.ucla.edu/~ana/"
+        title: "Alexandrova Lab@UCLA",
+        href: "http://www.chem.ucla.edu/~ana/"
     },
     {
-        TITLE: "Yang-Gang Group at SUSTech",
-        HREF: "http://faculty.sustech.edu.cn/?cat=2&tagid=wangyg"
+        title: "Yang-Gang Group@SUSTech",
+        href: "http://faculty.sustech.edu.cn/?cat=2&tagid=wangyg"
     },
-        {
-        TITLE: "Jun Li TCCL at Tsinghua",
-        HREF: "http://www.junlilab.org/"
+    {
+        title: "Jun Li TCCL@Tsinghua",
+        href: "http://www.junlilab.org/"
     },
 ]
