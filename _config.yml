@@ -24,6 +24,7 @@ github_username:    zishengz
 gscholar_username: oYBJT_kAAAAJ
 orcid_username: 0000-0002-4370-4038
 researchgate_username: Zisheng_Zhang2
+linkedin_username: zisheng-zhang-2982a515a
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
@@ -89,7 +90,7 @@ ga_domain: auto             # 默认的是 auto, 这里我是自定义了的域�
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 5              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -101,20 +102,20 @@ service-worker: true
 
 # Friends
 friends: [
-    {
-        title: "Researchgate",
-        href: "https://www.researchgate.net/profile/Zisheng_Zhang2"
-    },
-    {
-        title: "Google Scholar",
-        href: "https://scholar.google.com/citations?user=oYBJT_kAAAAJ&hl=en"
-    },
-    {
-        title: "Zhihu",
-        href: "https://www.zhihu.com/people/qian-zhang-26-83"
-    },
-    {
-        title: "ORCID",
-        href: "https://orcid.org/0000-0002-4370-4038"
-    }
+    # {
+        # title: "Researchgate",
+        # href: "https://www.researchgate.net/profile/Zisheng_Zhang2"
+    # },
+    # {
+        # title: "Google Scholar",
+        # href: "https://scholar.google.com/citations?user=oYBJT_kAAAAJ&hl=en"
+    # },
+    # {
+        # title: "Zhihu",
+        # href: "https://www.zhihu.com/people/qian-zhang-26-83"
+    # },
+    # {
+        # title: "ORCID",
+        # href: "https://orcid.org/0000-0002-4370-4038"
+    # }
 ]

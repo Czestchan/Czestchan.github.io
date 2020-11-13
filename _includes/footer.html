@@ -39,16 +39,6 @@
                     {% endif %}
 
                     <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
-                    {% if site.zhihu_username %}
-                    <li>
-                        <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa  fa-stack-1x fa-inverse">知</i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
 					
                     {% if site.weibo_username %}
                     <li>
@@ -73,10 +63,21 @@
                     </li>
                     {% endif %}
 					
+					{% if site.zhihu_username %}
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="ai  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+					
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
-                                <i class="fa fa-github fa-2x"></i>
+                                <i class="fa fa-github fa-inverse fa-2x"></i>
                         </a>
                     </li>
                     {% endif %}
@@ -84,10 +85,8 @@
                     {% if site.linkedin_username %}
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
+                                <i class="fa fa-linkedin fa-2x fa-inverse"></i>
+
                         </a>
                     </li>
                     {% endif %}
@@ -96,7 +95,7 @@
                     {% if site.gscholar_username %}
                     <li>
                         <a target="_blank" href="https://scholar.google.com/citations?user={{ site.gscholar_username }}">
-                            <i class="ai ai-google-scholar ai-2x"></i>
+                            <i class="ai ai-google-scholar ai-inverse ai-2x"></i>
                         </a>
                     </li>
                     {% endif %}
@@ -112,7 +111,7 @@
 					{% if site.researchgate_username %}
                     <li>
                         <a target="_blank" href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
-                            <i class="ai ai-researchgate ai-stack-1x ai-2x"></i>
+                            <i class="ai ai-researchgate ai-inverse ai-2x"></i>
                         </a>
                     </li>
                     {% endif %}
