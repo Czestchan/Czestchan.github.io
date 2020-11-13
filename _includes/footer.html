@@ -47,6 +47,7 @@
                         </a>
                     </li>
                     {% endif %}
+					
                     {% if site.weibo_username %}
                     <li>
                         <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
@@ -69,6 +70,7 @@
                         </a>
                     </li>
                     {% endif %}
+					
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -79,6 +81,7 @@
                         </a>
                     </li>
                     {% endif %}
+					
                     {% if site.linkedin_username %}
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
@@ -89,6 +92,41 @@
                         </a>
                     </li>
                     {% endif %}
+					
+					<!-- add Academic sites, by Zisheng (QZ), add target = "_blank" to <a> by Hux -->
+                    {% if site.gscholar_username %}
+                    <li>
+                        <a target="_blank" href="https://scholar.google.com/citations?user={{ site.gscholar_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-google-scholar fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+					
+					{% if site.orcid_username %}
+                    <li>
+                        <a target="_blank" href="https://orcid.org/{{ site.orcid_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-orcid fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+					
+					{% if site.researchgate_username %}
+                    <li>
+                        <a target="_blank" href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-researchgate fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+					
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
