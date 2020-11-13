@@ -183,6 +183,41 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
+							
+												<!-- add Academic sites, by Zisheng (QZ), add target = "_blank" to <a> by Hux -->
+                    {% if site.gscholar_username %}
+                    <li>
+                        <a target="_blank" href="https://scholar.google.com/citations?user={{ site.gscholar_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">GS</i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+					
+					{% if site.orcid_username %}
+                    <li>
+                        <a target="_blank" href="https://orcid.org/{{ site.orcid_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">OR</i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+					
+					{% if site.researchgate_username %}
+                    <li>
+                        <a target="_blank" href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">RG</i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
+					
                             
                         </ul>
                         {% if site.email %}
