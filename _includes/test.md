@@ -1,3 +1,7 @@
+---
+mathjax: true
+---
+
 [TOC]
 
 # Hi
