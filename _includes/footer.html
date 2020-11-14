@@ -1,6 +1,8 @@
 <!-- Footer -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
 <footer>
     <div class="container">
         <div class="row">
@@ -71,6 +73,14 @@
                     </li>
                     {% endif %}
 					
+					{% if site.zhihuzhuanlan_username %}
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/column/{{ site.zhihuzhuanlan_username }}">
+                                <i class="fa  fa-2x">专</i>
+                        </a>
+                    </li>
+                    {% endif %}
+					
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -83,6 +93,15 @@
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
                                 <i class="fa fa-linkedin fa-2x"></i>
+
+                        </a>
+                    </li>
+                    {% endif %}
+					
+					{% if site.msacademic_username %}
+                    <li>
+                        <a target="_blank" href="https://academic.microsoft.com/profile/{{ site.msacademic_username }}">
+                                <i class="fab fa-microsoft fa-2x"></i>
 
                         </a>
                     </li>
