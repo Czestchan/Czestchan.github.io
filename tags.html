@@ -26,31 +26,10 @@ header-img: "img/research3.png"
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <!-- 标签云 -->
-<!-- 			<div id='tag_cloud' class="tags">
+			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 				{% endfor %}
-			</div> -->
-			
-			<!-- Tags (as filter) -->
-			<div id='tag_cloud' class="tags tags-sup js-tags">
-				<a class="tag-button--all" data-encode="">
-					All Works
-					<sup>{{site.posts.size}}</sup>
-				</a>
-
-				{% capture tags %}
-				{% for tag in site.tags %}
-				<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
-					data-encode="{{ tag[0] | strip | url_encode }}"
-					class="tag-button"
-					title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-					{{ tag[0] }}
-					<sup>{{tag[1].size}}</sup>
-				</a>__SEPERATOR__
-				{% endfor %}
-				{% endcapture %}
-        {{ tags | split:'__SEPERATOR__' | sort }}
 			</div>
 
             <!-- 标签列表 -->
