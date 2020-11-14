@@ -173,6 +173,14 @@ layout: default
                     </li>
                     {% endif %}
 					
+					{% if site.zhihuzhuanlan_username %}
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/column/{{ site.zhihuzhuanlan_username }}">
+                                <i class="fa  fa-2x">专</i>
+                        </a>
+                    </li>
+                    {% endif %}
+					
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -185,6 +193,15 @@ layout: default
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
                                 <i class="fa fa-linkedin fa-2x"></i>
+
+                        </a>
+                    </li>
+                    {% endif %}
+					
+					{% if site.msacademic_username %}
+                    <li>
+                        <a target="_blank" href="https://academic.microsoft.com/profile/{{ site.msacademic_username }}">
+                                <i class="fab fa-microsoft fa-2x"></i>
 
                         </a>
                     </li>
@@ -218,7 +235,7 @@ layout: default
                             
                         </ul>
                         {% if site.email %}
-                            <p>✉️ {{site.email}}</p>
+                            <p>✉️ <a href="mailto:{{site.email}}">{{site.email}}<\a></p>
                         {% endif %}
                     </div>
                 </section>
