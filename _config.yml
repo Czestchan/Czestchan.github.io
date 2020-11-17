@@ -13,7 +13,7 @@ plugins: - jekyll-sitemap
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Just lose it!"
+sidebar-about-description: "SCIENTIA LONGA, VITA BREVIS"
 sidebar-avatar: /img/zisheng.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
